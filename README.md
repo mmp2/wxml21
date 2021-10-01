@@ -1,5 +1,4 @@
-# wxml21
-ImPaCT Improving Panel Consensus Tool
+# WXML 2021 Project: ImPaCT Improving Panel Consensus Tool
 
 Faculty Mentor: Dr. Marina Meila
 
