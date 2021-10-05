@@ -15,13 +15,15 @@ Additional Course Requirements: Combinatorics, algebra, probability
 Programming Requirements: very good python skills, especially visualization and plotting, numpy, scipy, file management, strings
 
 _a draft of activities_
+
 Lectures by mentors
 =====================
 1.  What is Panel Consensus? (Elena, Michael) And how our project will help with that.
 2.  Rankings (=permutations), top-k rankings, inversions (Marina)
 3.  Software tools for finding consensus (Michael) 
+
 Tasks 
-=====
+========
 1.  Generate artificial panel data (e.g. find a list of movies, books, and generate lists of preferences over them)
 2.  Write software tools for measuring consensus
 3.  Write code to visualize the data
