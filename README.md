@@ -25,10 +25,15 @@ Lectures by mentors
 Tasks 
 ========
 1.  Generate artificial panel data (e.g. find a list of movies, books, and generate lists of preferences over them)
-2.  Write software tools for measuring consensus
-3.  Write code to visualize the data
-4.  Write code to visualize the consensus ranking [+data]
-5.  Boostrap 
-6.  Tools to visualize the measures of consensus
-7.  Incorporate the consensus ranking tools in the software base.
-8.  Write report 
+    * make a set of movies, books, classes,theorems, foods.... that you all know 10-20
+    * rank them; ask your friends to also rank them
+    * give them scores 1-9, with 9 being best. Scores can be decimal ??
+    * ((come up with 2-4 criteria of quality; rank them on these criteria)) 
+    * present the results to us
+3.  Write software tools for measuring consensus
+4.  Write code to visualize the data
+5.  Write code to visualize the consensus ranking [+data]
+6.  Boostrap 
+7.  Tools to visualize the measures of consensus
+8.  Incorporate the consensus ranking tools in the software base.
+9.  Write report 
