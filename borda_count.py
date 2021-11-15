@@ -7,7 +7,7 @@ Results:
 ('Palmi Korean BBQ', 37),
 ('Shawarma King', 49),
 ('Chipotle', 51), 
-'Korean Tofu House', 58), 
+('Korean Tofu House', 58), 
 ("Costa's Restaurant", 59),
 ('Thai Tom', 59),
 ("Taste of Xi'an", 61), 
