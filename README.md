@@ -32,11 +32,21 @@ Tasks
     * ((come up with 2-4 criteria of quality; rank them on these criteria)) -- not now!
     * upload the data (.csv for example) on github)
     * present the results to us
-4.  Write code to visualize the data
 5.  Learn to use tools to find consensus ranking (you may write yourselves some of the simpler ones)
-6.  Write software tools for measuring consensus (this may be combined with 5.)
-7.  Write code to visualize the consensus ranking [+data]
-8.  Bootstrap 
-9.  Tools to visualize the measures of consensus (this part may be mixed with previous ones)
-10.  Incorporate the consensus ranking tools in the software base.
-11.  Write report 
+6.   Write code to visualize the data
+  * visualize the Q matrix
+  * visualize Borda score below Q matrix
+  * choose appropriaate row/column ordering for Q
+  *  visualize Q matrices for criteria and differences with overall Q
+     * Visualize raw data:
+     * compute inversion distances between raw data and use them to improve visualization
+     * compute inversion distances between overall and criteria + visualize the agreement of criteria with overall, between each other
+     * visualize pairwise distances as matrix
+     * compute distances from each individual data point to consensus
+     * _bug in numbering... to fix_
+12.  Write software tools for measuring consensus (this may be combined with 5.)
+13.  Write code to visualize the consensus ranking [+data]
+14.  Bootstrap 
+15.  Tools to visualize the measures of consensus (this part may be mixed with previous ones)
+16.  Incorporate the consensus ranking tools in the software base.
+17.  Write report 
