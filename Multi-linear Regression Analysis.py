@@ -3,6 +3,7 @@ import numpy as np
 from collections import defaultdict
 from sklearn import linear_model
 import matplotlib.pyplot as plt
+import seaborn as sns
 from mpl_toolkits.mplot3d import Axes3D
 
 # Load CSV files
@@ -180,6 +181,9 @@ print('In this multiple regression analysis, we apply borda scores of each criti
  regr1.coef_[0],'\nThe coefficient between overall performance and customer service is', regr1.coef_[1],
  '\nThe coefficient between overall performance and restaurant environment is', regr1.coef_[2])
 
+# Visualize the data simply by using side-by-side plots
+sns.set_palette('colorblind')
+sns.pairplot(data=df, height=3)
 
 # Prepare data for 3D plots
 X = df[['cs_total_ranking', 're_total_ranking']].values.reshape(-1,2)
