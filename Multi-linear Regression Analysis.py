@@ -1,7 +1,9 @@
 import pandas as pd
 import numpy as np
 from collections import defaultdict
-
+from sklearn import linear_model
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
 
 # Load CSV files
 op_df = pd.read_csv('OP Ranking.csv')
@@ -9,8 +11,8 @@ fq_df = pd.read_csv("FQ Ranking.csv")
 cs_df = pd.read_csv("CS Ranking.csv")
 re_df = pd.read_csv("RE Ranking.csv")
 
-n_participant = len(op_df.index)  # number of participants
-n_rest = len(op_df.columns)       # number of restaurants
+n_participant = 11  # number of participants
+n_rest = 12       # number of restaurants
 
 rank_cols_op = op_df.columns[1:]
 rank_cols_fq = fq_df.columns[1:]
@@ -228,6 +230,11 @@ for ax in axes:
 ax1.view_init(elev=25, azim=-60)
 ax2.view_init(elev=15, azim=15)
 ax3.view_init(elev=25, azim=60)
+
+
+# Show the 3D plot, which indicates the relationship between food quality, customer service, and restaurant environment
+fig.suptitle('Multi-Linear Regression Model Visualization ($R^2 = %.2f$)' % r2, fontsize=15, color='k')
+fig.tight_layout()
 
 
 # Show the 3D plot, which indicates the relationship between food quality, customer service, and restaurant environment
