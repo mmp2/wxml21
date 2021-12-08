@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from mpl_toolkits.mplot3d import Axes3D
 
+
 # Load CSV files
 op_df = pd.read_csv('OP Ranking.csv')
 fq_df = pd.read_csv("FQ Ranking.csv")
@@ -166,28 +167,28 @@ regr1 = linear_model.LinearRegression()
 
 
 # Set up a dataframe
-data = {'fq_total_ranking': fq_total_ranking, 'cs_total_ranking': cs_total_ranking, 're_total_ranking': re_total_ranking,  'op_total_ranking': op_total_ranking}
+data = {'Food Quality': fq_total_ranking, 'Customer Service': cs_total_ranking, 'Restaurant Environment': re_total_ranking,  'Overall Performance': op_total_ranking}
 df = pd.DataFrame(data=data)
 
 
 # Build a model by using borda's rule
-X = df[['fq_total_ranking', 'cs_total_ranking', 're_total_ranking']]
-y = df['op_total_ranking']
+X = df[['Food Quality', 'Customer Service', 'Restaurant Environment']]
+y = df['Overall Performance']
 model = regr1.fit(X, y)
 
 
 # Print coefficient values
-print('In this multiple regression analysis, we apply borda scores of each critierias. \nThe coefficient between overall performance and food quality is',
- regr1.coef_[0],'\nThe coefficient between overall performance and customer service is', regr1.coef_[1],
- '\nThe coefficient between overall performance and restaurant environment is', regr1.coef_[2])
+print('In this multiple regression analysis, we apply borda scores of each critierias. \nThe regression coefficient between overall performance and food quality is',
+ format(regr1.coef_[0], '.2f'),'\nThe regression coefficient between overall performance and customer service is', format(regr1.coef_[1], '.2f'),
+ '\nThe regression coefficient between overall performance and restaurant environment is', format(regr1.coef_[2], '.2f'))
 
 # Visualize the data simply by using side-by-side plots
 sns.set_palette('colorblind')
 sns.pairplot(data=df, height=3)
 
 # Prepare data for 3D plots
-X = df[['cs_total_ranking', 're_total_ranking']].values.reshape(-1,2)
-Y = df['fq_total_ranking']
+X = df[['Food Quality', 'Customer Service']].values.reshape(-1,2)
+Y = df['Overall Performance']
 
 
 # Create range for each dimension
@@ -225,9 +226,9 @@ axes = [ax1, ax2, ax3]
 for ax in axes:
     ax.plot(x, y, z, color='k', zorder=15, linestyle='none', marker='o', alpha=0.5)
     ax.scatter(xx_pred.flatten(), yy_pred.flatten(), predicted, facecolor=(0,0,0,0), s=20, edgecolor='#70b3f0')
-    ax.set_xlabel('Customer Service', fontsize=12)
-    ax.set_ylabel('Restaurant Environment', fontsize=12)
-    ax.set_zlabel('Food Quality', fontsize=12)
+    ax.set_xlabel('Food Quality', fontsize=12)
+    ax.set_ylabel('Customer Service', fontsize=12)
+    ax.set_zlabel('Overall Performance', fontsize=12)
     ax.locator_params(nbins=4, axis='x')
     ax.locator_params(nbins=5, axis='x')
 
@@ -241,6 +242,23 @@ fig.suptitle('Multi-Linear Regression Model Visualization ($R^2 = %.2f$)' % r2, 
 fig.tight_layout()
 
 
-# Show the 3D plot, which indicates the relationship between food quality, customer service, and restaurant environment
-fig.suptitle('Multi-Linear Regression Model Visualization ($R^2 = %.2f$)' % r2, fontsize=15, color='k')
-fig.tight_layout()
+
+# Build Pearson Correlation Coefficient Matrix to verify the relationship we get
+corr = df[['Overall Performance', 'Food Quality', 'Customer Service', 'Restaurant Environment']].corr()
+print('Pearson correlation coefficient matrix of each variables:\n', corr)
+
+# Generate a mask for the diagonal cell
+mask = np.zeros_like(corr, dtype=np.bool)
+np.fill_diagonal(mask, val=True)
+
+# Initialize matplotlib figure
+fig, ax = plt.subplots(figsize=(4, 3))
+
+# Generate a custom diverging colormap
+cmap = sns.diverging_palette(220, 10, as_cmap=True, sep=100)
+cmap.set_bad('grey')
+
+# Draw the heatmap with the mask and correct aspect ratio
+sns.heatmap(corr, mask=mask, cmap=cmap, vmin=-1, vmax=1, center=0, linewidths=.5)
+fig.suptitle('Pearson correlation coefficient matrix', fontsize=14)
+ax.tick_params(axis='both', which='major', labelsize=10)
