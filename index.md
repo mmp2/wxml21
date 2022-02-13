@@ -7,13 +7,13 @@ With statistics, we build models that explain the patterns observed in preferenc
 Peer review is fascinating as a problem of aggregating preferences, one where each agent (reviewer) only evaluates a small subset of all submissions. There are many other variables in this problem, including the quality of the submissions, the quality of the reviews, the confidence of the reviewers. Peer review is also one of the fundamental mechanisms for generating scientific knowledge, and our research aims  to ensure that it is fair and effective.
 
 
-##Publications
+## Publications
 
-##Courses and Seminars
+## Courses and Seminars
 
-##Code and Data
+## Code and Data
 
-##Funding
+## Funding
 
 [Link](url) and ![Image](src)
 ```
