@@ -1,27 +1,19 @@
-## Welcome to GitHub Pages
+# Rankings, Modeling preferences and applications to Peer Review
 
-You can use the [editor on GitHub](https://github.com/mmp2/wxml21/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+We are studying the mathematics and statistics of ordered data, aiming to better model and underestand preferences. Mathematically, preferences are described in their simplest form by permutations; more realistic models are based on partial orders, reflecting the incomplete ways preferences can be formulated, and can have rich structure. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+With statistics, we build models that explain the patterns observed in preference data (such as surveys) or ordered data (such as race results). They let us find consensus, how strong it is, if there are distinct groups in the data, or if other structure is discernible (such as categories of choices that are related/unrelated). Since often the preferences are incompletely observed (for example if the choices are rated rather than ranked, or if only the top 3 preferred choices are known) the statistical estimation algorithms must be able to handle these.
 
-### Markdown
+Peer review is fascinating as a problem of aggregating preferences, one where each agent (reviewer) only evaluates a small subset of all submissions. There are many other variables in this problem, including the quality of the submissions, the quality of the reviews, the confidence of the reviewers. Peer review is also one of the fundamental mechanisms for generating scientific knowledge, and our research aims  to ensure that it is fair and effective.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+##Publications
 
-# Header 1
-## Header 2
-### Header 3
+##Courses and Seminars
 
-- Bulleted
-- List
+##Code and Data
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
+##Funding
 
 [Link](url) and ![Image](src)
 ```
