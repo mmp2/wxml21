@@ -8,31 +8,32 @@ Peer review is fascinating as a problem of aggregating preferences, one where ea
 
 
 ## Publications
--Christopher Meek, Marina Meila NIPS 2014: 631-639 Recursive Inversion Models for Permutations
+- Christopher Meek, Marina Meila NIPS 2014: 631-639 [Recursive Inversion Models for Permutations](https://proceedings.neurips.cc/paper/2014/hash/15d4e891d784977cacbfcbb00c48f133-Abstract.html)
 
--"Consensus ranking with signed permutations" with Raman Arora, AISTATS 2013
+- "Consensus ranking with signed permutations" with Raman Arora, AISTATS 2013
 
--"Experiments with Kemeny ranking: what works when? with Alnur Ali, Mathematical Social Sciences 64,28-40, 2012
+- ["Experiments with Kemeny ranking: what works when?](https://id.elsevier.com/as/authorization.oauth2?platSite=SD%2Fscience&scope=openid%20email%20profile%20els_auth_info%20els_idp_info%20els_idp_analytics_attrs%20els_sa_discover%20urn%3Acom%3Aelsevier%3Aidp%3Apolicy%3Aproduct%3Ainst_assoc&response_type=code&redirect_uri=https%3A%2F%2Fwww.sciencedirect.com%2Fuser%2Fidentity%2Flanding&authType=SINGLE_SIGN_IN&prompt=login&client_id=SDFE-v3&state=retryCounter%3D0%26csrfToken%3D59cde693-af41-41a6-98fc-814e546ce75e%26idpPolicy%3Durn%253Acom%253Aelsevier%253Aidp%253Apolicy%253Aproduct%253Ainst_assoc%26returnUrl%3D%252Fscience%252Farticle%252Fpii%252FS0165489611000989%26prompt%3Dlogin%26cid%3Darp-60647b5e-5189-46cc-b6ef-811325eefa96) with Alnur Ali, Mathematical Social Sciences 64,28-40, 2012
 
--"Preferences in college applications -- a non-parametric Bayesian analysis of top-10 rankings" Alnur Ali, Marina Meila, Brendan Murphy, Harr Chen, NIPS Workshop on Computational Social Science and the Wisdom of Crowds, 2010 (slides)
-"Dirichlet Process Mixtures of Generalized Mallows Models" Marina Meila and Harr Chen, UAI 2010, Catalina Island, CA.
-Journal version accepted to TPAMI (TB posted).
+- ["Preferences in college applications -- a non-parametric Bayesian analysis of top-10 rankings"](https://people.cs.umass.edu/~wallach/workshops/nips2010css/papers/ali.pdf) Alnur Ali, Marina Meila, Brendan Murphy, Harr Chen, NIPS Workshop on [Computational Social Science and the Wisdom of Crowds](https://people.cs.umass.edu/~wallach/workshops/nips2010css/), 2010 [(slides)](https://sites.stat.washington.edu/mmp/intransitive.html)
 
--"An exponential family model over infinite rankings by Marina Meila and Le Bao, Journal of Machine Learning Research, 10:3481--3518, 2010.
+- ["Dirichlet Process Mixtures of Generalized Mallows Models"](https://event.cwi.nl/uai2010/papers/UAI2010_0170.pdf) Marina Meila and Harr Chen, UAI 2010, Catalina Island, CA. Journal version accepted to TPAMI (TB posted).
 
--Marina Meila and Le Bao "Estimation and Clustering with Infinite Rankings", UAI 2008, Helsinki, Finland.
+- "An exponential family model over infinite rankings by Marina Meila and Le Bao, Journal of Machine Learning Research, 10:3481--3518, 2010.
 
--Marina Meila and Le Bao "Estimation and Clustering with Infinite Rankings", UW Statistics TR 529, 2007
+- Marina Meila and Le Bao "Estimation and Clustering with Infinite Rankings", UAI 2008, Helsinki, Finland.
 
--Le Bao and Marina Meila "Clustering permutations by Exponential Blurring Mean-Shift", UW Statistics TR 524, 2007
+- Marina Meila and Le Bao "Estimation and Clustering with Infinite Rankings", UW Statistics TR 529, 2007
 
--Marina Meila, Kapil Phadnis, Arthur Patterson and Jeff Bilmes "Consensus ranking under the exponential model", UAI 2007, Vancouver, BC.
+- Le Bao and Marina Meila ["Clustering permutations by Exponential Blurring Mean-Shift"](https://stat.uw.edu/sites/default/files/files/reports/2008/tr524.pdf), UW Statistics TR 524, 2007
 
--Marina Meila, Kapil Phadnis, Arthur Patterson and Jeff Bilmes "Consensus ranking under the exponential model" , UW Statistics Technical Report 515
+- Marina Meila, Kapil Phadnis, Arthur Patterson and Jeff Bilmes "Consensus ranking under the exponential model", UAI 2007, Vancouver, BC.
 
--Jeff Bilmes and Marina Meila "Intransitivity in classification and choice", UWEETR-2006-0021
+- Marina Meila, Kapil Phadnis, Arthur Patterson and Jeff Bilmes ["Consensus ranking under the exponential model"](https://stat.uw.edu/sites/default/files/files/reports/2007/tr515.pdf) , UW Statistics Technical Report 515
+
+- Jeff Bilmes and Marina Meila "Intransitivity in classification and choice", UWEETR-2006-0021
 
 ## Courses and Seminars
+- [STAT 591/EE 596 Modern methods of machine learning: multiway classification, preferences, intransitivity](https://sites.stat.washington.edu/mmp/591-description.txt) Marina Meila and Jeff Bilmes, Autumn 2006
 
 ## Code and Data
 
