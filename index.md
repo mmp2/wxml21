@@ -8,6 +8,29 @@ Peer review is fascinating as a problem of aggregating preferences, one where ea
 
 
 ## Publications
+-Christopher Meek, Marina Meila NIPS 2014: 631-639 Recursive Inversion Models for Permutations
+
+-"Consensus ranking with signed permutations" with Raman Arora, AISTATS 2013
+
+-"Experiments with Kemeny ranking: what works when? with Alnur Ali, Mathematical Social Sciences 64,28-40, 2012
+
+-"Preferences in college applications -- a non-parametric Bayesian analysis of top-10 rankings" Alnur Ali, Marina Meila, Brendan Murphy, Harr Chen, NIPS Workshop on Computational Social Science and the Wisdom of Crowds, 2010 (slides)
+"Dirichlet Process Mixtures of Generalized Mallows Models" Marina Meila and Harr Chen, UAI 2010, Catalina Island, CA.
+Journal version accepted to TPAMI (TB posted).
+
+-"An exponential family model over infinite rankings by Marina Meila and Le Bao, Journal of Machine Learning Research, 10:3481--3518, 2010.
+
+-Marina Meila and Le Bao "Estimation and Clustering with Infinite Rankings", UAI 2008, Helsinki, Finland.
+
+-Marina Meila and Le Bao "Estimation and Clustering with Infinite Rankings", UW Statistics TR 529, 2007
+
+-Le Bao and Marina Meila "Clustering permutations by Exponential Blurring Mean-Shift", UW Statistics TR 524, 2007
+
+-Marina Meila, Kapil Phadnis, Arthur Patterson and Jeff Bilmes "Consensus ranking under the exponential model", UAI 2007, Vancouver, BC.
+
+-Marina Meila, Kapil Phadnis, Arthur Patterson and Jeff Bilmes "Consensus ranking under the exponential model" , UW Statistics Technical Report 515
+
+-Jeff Bilmes and Marina Meila "Intransitivity in classification and choice", UWEETR-2006-0021
 
 ## Courses and Seminars
 
