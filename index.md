@@ -36,6 +36,12 @@ Peer review is fascinating as a problem of aggregating preferences, one where ea
 - [STAT 591/EE 596 Modern methods of machine learning: multiway classification, preferences, intransitivity](https://sites.stat.washington.edu/mmp/591-description.txt) Marina Meila and Jeff Bilmes, Autumn 2006
 
 ## Code and Data
+- GMM - Estimation of Generalized Mallows Models (Java package) written by Bhushan Mandhani [with support from [NSF award 0535100](https://www.nsf.gov/awardsearch/showAward?AWD_ID=0) ]
+[[Overview/Manual](https://sites.stat.washington.edu/mmp/gmm-manual.pdf)]
+[[Download GMM]()]
+- MS -- Exponential Blurring Mean-Shift for Rankings (Matlab package) written by Le Bao and Marina Meila [with support from [NSF award 0535100](https://www.nsf.gov/awardsearch/showAward?AWD_ID=0) ]
+[[Overview](https://sites.stat.washington.edu/mmp/intransitive/README.txt)]
+[Download MS()]
 
 ## Funding
 
