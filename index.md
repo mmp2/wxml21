@@ -7,8 +7,7 @@ With statistics, we build models that explain the patterns observed in preferenc
 Peer review is fascinating as a problem of aggregating preferences, one where each agent (reviewer) only evaluates a small subset of all submissions. There are many other variables in this problem, including the quality of the submissions, the quality of the reviews, the confidence of the reviewers. Peer review is also one of the fundamental mechanisms for generating scientific knowledge, and our research aims  to ensure that it is fair and effective.
 
 
-<details><summary> ## Publications</summary>
-<p>
+## Publications
 - Christopher Meek, Marina Meila NIPS 2014: 631-639 [Recursive Inversion Models for Permutations](https://proceedings.neurips.cc/paper/2014/hash/15d4e891d784977cacbfcbb00c48f133-Abstract.html)
 
 - "Consensus ranking with signed permutations" with Raman Arora, AISTATS 2013
@@ -33,17 +32,11 @@ Peer review is fascinating as a problem of aggregating preferences, one where ea
 
 - Jeff Bilmes and Marina Meila "Intransitivity in classification and choice", UWEETR-2006-0021
 
-</p>
-</details>
 
 
-<details><summary> ## Courses and Seminars</summary>
-<p>
+## Courses and Seminars
 - [STAT 591/EE 596 Modern methods of machine learning: multiway classification, preferences, intransitivity](https://sites.stat.washington.edu/mmp/591-description.txt) Marina Meila and Jeff Bilmes, Autumn 2006
   
-</p>
-</details>
-
 
 ## Code and Data
 - GMM - Estimation of Generalized Mallows Models (Java package) written by Bhushan Mandhani [with support from [NSF award 0535100](https://www.nsf.gov/awardsearch/showAward?AWD_ID=0) ]
