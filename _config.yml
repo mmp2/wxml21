@@ -1,7 +1,6 @@
+title: Rankings and Modeling Preferences
 theme: jekyll-theme-minimal
-
-sidebar:
-  - name: something
-    link: https://mmp2.github.io/wxml21/
-  - name: GitHub
-    link: https://mmp2.github.io/wxml21/
+plugins:
+  - jekyll-sitemap
+  - jekyll-sea-tag
+  - jeomji
