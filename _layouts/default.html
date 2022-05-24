@@ -1,66 +1,23 @@
-{% case site.color-scheme %}
-  {% when "", nil, false, 0, empty %}
-    {% assign ColorScheme = "auto" %}
-  {% else %}
-    {% assign ColorScheme = site.color-scheme %}
-{% endcase %}
-
+<!--
+  Minimal Portfolio by Vyshnav Gangadharan
+  Free for personal and commercial use under the MIT license
+-->
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-{% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/colors-ColorScheme.css?v=" | replace: "ColorScheme", ColorScheme | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+<html>
 
-    <link rel="preload" href="{{site.logo | relative_url}}" as="image">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
-    {% include head-custom.html %}
-  </head>
-  <body>
-    <div class="wrapper">
-      <div class="sidebar">
-        <header>
-          {% if site.logo %}
-            <img class="img-circle" src="{{site.logo | relative_url}}" alt="Logo">
-          {% endif %}
+{% include head.html %}
 
-          {% if site.blank_title %}
-            <h1>{{ site.title | default: site.github.repository_name }}</h1>
-          {% else %}
-            <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-          {% endif %}
+<body style="display: flex !important; flex-direction: column !important; height: 100% !important;">
 
-          {% if site.email %}
-            <p class="addr"><i class="fa-regular fa-envelope"></i>&nbsp;{{ site.email }}</p>
-          {% endif %}
+  <main style="margin-top: 1rem !important; flex-shrink: 0 !important;">
+    {% include navbar.html %}
+    {{ content }}
+    </main>
+  
+    {% include footer.html %}
 
-          <p>{{ site.description | default: site.github.project_tagline }}</p>
+</body>
 
-          {% include sidebar.html %}
-
-        </header>
-
-        {% include links-mobile.html %}
-
-        <div class="sidebar-footer">
-          {%- include footer.html -%}
-        </div>
-      </div>
-      <section>
-
-      {{ content }}
-
-      </section>
-      <footer>
-        {%- include footer.html -%}
-      </footer>
-    </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-  </body>
 </html>
+
