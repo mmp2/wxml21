@@ -4,3 +4,21 @@ plugins:
   - jekyll-sitemap
   - jekyll-sea-tag
   - jeomji
+
+
+sidebar:
+  - name: Faculty
+    - name: Marina Meila
+      link: https://sites.stat.washington.edu/mmp/
+    - name: Jeff Bilmes
+      link: https://people.ece.uw.edu/bilmes/p/pgs/index.html
+  - name: Students
+    - name: Le Bao
+      link: https://www.healthdata.org/about/le-bao
+    - name: Bhushan Mandhani
+      link: https://www.researchgate.net/scientific-contributions/Bhushan-Mandhani-74780714
+  - name: Publications
+  - name: Courses
+  - name: Code and Data
+  - name: Project Repository
+    link: https://github.com/mmp2/wxml21
