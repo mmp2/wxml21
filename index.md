@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Rankings, Modeling preferences and applications to Peer Review
 
 We are studying the mathematics and statistics of ordered data, aiming to better model and underestand preferences. Mathematically, preferences are described in their simplest form by permutations; more realistic models are based on partial orders, reflecting the incomplete ways preferences can be formulated, and can have rich structure. 
@@ -62,13 +65,3 @@ The following sources of funding have supported this project
 - Dominique Perrault-Joncas, Statistics (currently at Google)
 - Alnur Ali (currently PhD student at CMU)
 
-
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mmp2/wxml21/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
