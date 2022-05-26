@@ -1,6 +1,4 @@
----
-layout: default
----
+
 # Rankings, Modeling preferences and applications to Peer Review
 
 We are studying the mathematics and statistics of ordered data, aiming to better model and underestand preferences. Mathematically, preferences are described in their simplest form by permutations; more realistic models are based on partial orders, reflecting the incomplete ways preferences can be formulated, and can have rich structure. 
