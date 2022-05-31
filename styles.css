@@ -1,0 +1,31 @@
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #F0F8FF;
+  padding: 20px;
+  font-size: 16px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+/* Style the header */
+header {
+  padding: 1px;
+  text-align: center;
+  font-size: 18px;
+  color: black;
+}
+
+/* Style the article*/
+article {
+  float: left;
+  padding: 13px;
+  font-size: 15px;
+  width: 60%;
+}
