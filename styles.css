@@ -2,11 +2,12 @@
 /* Create two columns/boxes that floats next to each other */
 nav {
   float: left;
-  width: 20%;
+  width: 15%;
   height: 300px; /* only for demonstration, should be removed */
   background: #F0F8FF;
   padding: 20px;
   font-size: 16px;
+  line-height: 1.6;
 }
 
 /* Style the list inside the menu */
