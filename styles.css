@@ -26,7 +26,8 @@ header {
   text-align: center;
   font-size: 23px;
   color: black;
-  background:#FAEBD7;
+  background:#FFF8DC;
+  border-style: solid;
 }
 
 /* Style the article*/
